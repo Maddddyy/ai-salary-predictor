@@ -1,0 +1,62 @@
+[
+  {
+    "test_name": "Junior Frontend Developer - Startup",
+    "status": "PASS",
+    "salary": 89221.42927028485,
+    "confidence": 94.02055224539279
+  },
+  {
+    "test_name": "Senior AI Engineer - Tech Giant",
+    "status": "PASS",
+    "salary": 276267.7051272273,
+    "confidence": 96.87700648011854
+  },
+  {
+    "test_name": "Mid-level Data Scientist - Finance",
+    "status": "PASS",
+    "salary": 161252.7026346218,
+    "confidence": 95.95887942294186
+  },
+  {
+    "test_name": "Entry-level Business Analyst - Healthcare",
+    "status": "PASS",
+    "salary": 91345.37839398555,
+    "confidence": 90.53291997696655
+  },
+  {
+    "test_name": "Senior DevOps Engineer - Enterprise",
+    "status": "PASS",
+    "salary": 187292.28357049145,
+    "confidence": 96.97401368985649
+  },
+  {
+    "test_name": "Principal ML Engineer - Tech",
+    "status": "PASS",
+    "salary": 274628.27461838536,
+    "confidence": 97.67394718067683
+  },
+  {
+    "test_name": "Junior Data Analyst - Retail",
+    "status": "PASS",
+    "salary": 50031.966310685246,
+    "confidence": 89.85422428005324
+  },
+  {
+    "test_name": "Senior Product Manager - Finance",
+    "status": "PASS",
+    "salary": 176638.12769408702,
+    "confidence": 97.12879593391783
+  },
+  {
+    "test_name": "Mid-level Backend Dev - Startup Remote",
+    "status": "PASS",
+    "salary": 100646.64589243513,
+    "confidence": 93.7639355950968
+  },
+  {
+    "test_name": "Entry-level Cybersecurity - Government",
+    "status": "PASS",
+    "salary": 150571.82063502466,
+    "confidence": 96.47610327173088
+  }
+]

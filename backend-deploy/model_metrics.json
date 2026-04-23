@@ -1,0 +1,30 @@
+{
+  "random_forest": {
+    "train": {
+      "r2_score": 0.9775586939623854,
+      "mae": 4413.457646749171,
+      "rmse": 5608.604329651829,
+      "mape": 3.208020147851893
+    },
+    "test": {
+      "r2_score": 0.965591368794438,
+      "mae": 5484.840162209289,
+      "rmse": 6915.439624724563,
+      "mape": 3.973640370818206
+    }
+  },
+  "linear_regression": {
+    "test": {
+      "r2_score": 0.9553766065174611,
+      "mae": 6059.226880184553,
+      "rmse": 7875.305189033409
+    }
+  },
+  "success_criteria": {
+    "r2_threshold": 0.85,
+    "mae_threshold": 10000,
+    "r2_met": true,
+    "mae_met": true,
+    "all_criteria_met": true
+  }
+}

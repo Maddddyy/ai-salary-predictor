@@ -1,0 +1,18 @@
+{
+  "total_rows_original": 250000,
+  "total_rows_cleaned": 250000,
+  "duplicates_removed": 0,
+  "outliers_detected": 2336,
+  "outliers_removed": 0,
+  "features_before_encoding": 9,
+  "features_after_encoding": 40,
+  "train_samples": 200000,
+  "test_samples": 50000,
+  "salary_stats": {
+    "min": 31867.0,
+    "max": 333046.0,
+    "mean": 145718.080524,
+    "median": 143453.0,
+    "std": 37407.952729244156
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "test_idx": 0,
+    "actual_salary": 164009.0,
+    "predicted_salary": 166952.86901740247,
+    "error": 2943.869017402467,
+    "error_pct": 1.7949435807806076
+  },
+  {
+    "test_idx": 1000,
+    "actual_salary": 157312.0,
+    "predicted_salary": 156858.59584212367,
+    "error": -453.4041578763281,
+    "error_pct": -0.2882196894555585
+  },
+  {
+    "test_idx": 5000,
+    "actual_salary": 144340.0,
+    "predicted_salary": 139070.97365413143,
+    "error": -5269.026345868566,
+    "error_pct": -3.650427009746824
+  },
+  {
+    "test_idx": 10000,
+    "actual_salary": 139631.0,
+    "predicted_salary": 143203.31984907872,
+    "error": 3572.319849078718,
+    "error_pct": 2.5584002471361793
+  },
+  {
+    "test_idx": 15000,
+    "actual_salary": 137275.0,
+    "predicted_salary": 133334.12544882201,
+    "error": -3940.8745511779853,
+    "error_pct": -2.8707882361522383
+  },
+  {
+    "test_idx": 20000,
+    "actual_salary": 149075.0,
+    "predicted_salary": 153368.76527239333,
+    "error": 4293.765272393328,
+    "error_pct": 2.880271858053549
+  },
+  {
+    "test_idx": 30000,
+    "actual_salary": 137759.0,
+    "predicted_salary": 143741.47371402194,
+    "error": 5982.473714021937,
+    "error_pct": 4.3427098875731796
+  },
+  {
+    "test_idx": 40000,
+    "actual_salary": 156786.0,
+    "predicted_salary": 151155.94259405232,
+    "error": -5630.0574059476785,
+    "error_pct": -3.590918453144846
+  },
+  {
+    "test_idx": 45000,
+    "actual_salary": 133106.0,
+    "predicted_salary": 137847.2602887128,
+    "error": 4741.260288712801,
+    "error_pct": 3.5620184580055003
+  },
+  {
+    "test_idx": 49000,
+    "actual_salary": 77704.0,
+    "predicted_salary": 75496.35088593497,
+    "error": -2207.6491140650323,
+    "error_pct": -2.8411009910236698
+  }
+]
