@@ -1,0 +1,67 @@
+{
+  "total_rows": 250000,
+  "total_columns": 10,
+  "columns": [
+    "job_title",
+    "experience_years",
+    "education_level",
+    "skills_count",
+    "industry",
+    "company_size",
+    "location",
+    "remote_work",
+    "certifications",
+    "salary"
+  ],
+  "dtypes": {
+    "job_title": "str",
+    "experience_years": "int64",
+    "education_level": "str",
+    "skills_count": "int64",
+    "industry": "str",
+    "company_size": "str",
+    "location": "str",
+    "remote_work": "str",
+    "certifications": "int64",
+    "salary": "int64"
+  },
+  "null_counts": {
+    "job_title": 0,
+    "experience_years": 0,
+    "education_level": 0,
+    "skills_count": 0,
+    "industry": 0,
+    "company_size": 0,
+    "location": 0,
+    "remote_work": 0,
+    "certifications": 0,
+    "salary": 0
+  },
+  "numerical_stats": {
+    "salary": {
+      "min": 31867.0,
+      "max": 333046.0,
+      "mean": 145718.080524,
+      "median": 143453.0,
+      "std": 37407.952729244156
+    },
+    "experience_years": {
+      "min": 0.0,
+      "max": 20.0,
+      "mean": 10.005408
+    },
+    "skills_count": {
+      "min": 1.0,
+      "max": 19.0,
+      "mean": 9.997812
+    }
+  },
+  "categorical_unique_counts": {
+    "job_title": 12,
+    "education_level": 5,
+    "industry": 10,
+    "company_size": 5,
+    "location": 10,
+    "remote_work": 3
+  }
+}
