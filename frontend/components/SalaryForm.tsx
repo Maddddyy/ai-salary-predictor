@@ -84,7 +84,7 @@ export default function SalaryForm({ onPrediction, onLoading }: SalaryFormProps)
         </div>
       )}
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+      <div className="grid grid-cols-1 gap-4">
         {/* Job Title */}
         <div className="group">
           <label className="block text-sm font-semibold text-gray-200 mb-2 group-hover:text-purple-300 transition-colors">
@@ -220,7 +220,7 @@ export default function SalaryForm({ onPrediction, onLoading }: SalaryFormProps)
         </div>
 
         {/* Certifications */}
-        <div className="md:col-span-2 group">
+        <div className="group">
           <label className="block text-sm font-semibold text-gray-200 mb-2 group-hover:text-purple-300 transition-colors">
             🏆 Number of Certifications
           </label>

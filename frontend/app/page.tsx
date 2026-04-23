@@ -40,9 +40,9 @@ export default function Home() {
 
       {/* Main Content */}
       <main className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
-        <div className="grid grid-cols-1 lg:grid-cols-5 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Form Section */}
-          <div className="lg:col-span-2">
+          <div className="md:col-span-1">
             <div className="backdrop-blur-lg bg-white/10 border border-white/20 rounded-3xl shadow-2xl p-6 md:p-8 sticky top-8 hover:bg-white/[0.12] transition-all duration-300">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center">
@@ -60,7 +60,7 @@ export default function Home() {
           </div>
 
           {/* Results Section */}
-          <div className="lg:col-span-3">
+          <div className="md:col-span-1">
             {loading && (
               <div className="backdrop-blur-lg bg-white/10 border border-white/20 rounded-3xl shadow-2xl p-12 flex flex-col items-center justify-center min-h-[400px]">
                 <div className="relative">

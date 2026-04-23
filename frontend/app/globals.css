@@ -70,9 +70,23 @@ input:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  -webkit-text-fill-color: white;
+  -webkit-text-fill-color: white !important;
   -webkit-box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0.1) inset;
   transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Force white text in all form elements */
+select,
+select option,
+input[type="number"],
+input[type="text"] {
+  color: white !important;
+  -webkit-text-fill-color: white !important;
+}
+
+select option {
+  background-color: #1e293b !important;
+  color: white !important;
 }
 
 @layer utilities {
