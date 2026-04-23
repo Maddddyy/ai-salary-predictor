@@ -97,7 +97,7 @@ export default function SalaryForm({ onPrediction, onLoading }: SalaryFormProps)
             required
           >
             {options.job_title.map(title => (
-              <option key={title} value={title} className="bg-slate-800">{title}</option>
+              <option key={title} value={title} className="bg-slate-800 text-white">{title}</option>
             ))}
           </select>
         </div>
@@ -130,7 +130,7 @@ export default function SalaryForm({ onPrediction, onLoading }: SalaryFormProps)
             required
           >
             {options.education_level.map(level => (
-              <option key={level} value={level} className="bg-slate-800">{level}</option>
+              <option key={level} value={level} className="bg-slate-800 text-white">{level}</option>
             ))}
           </select>
         </div>
@@ -163,7 +163,7 @@ export default function SalaryForm({ onPrediction, onLoading }: SalaryFormProps)
             required
           >
             {options.industry.map(ind => (
-              <option key={ind} value={ind} className="bg-slate-800">{ind}</option>
+              <option key={ind} value={ind} className="bg-slate-800 text-white">{ind}</option>
             ))}
           </select>
         </div>
@@ -180,7 +180,7 @@ export default function SalaryForm({ onPrediction, onLoading }: SalaryFormProps)
             required
           >
             {options.company_size.map(size => (
-              <option key={size} value={size} className="bg-slate-800">{size}</option>
+              <option key={size} value={size} className="bg-slate-800 text-white">{size}</option>
             ))}
           </select>
         </div>
@@ -197,7 +197,7 @@ export default function SalaryForm({ onPrediction, onLoading }: SalaryFormProps)
             required
           >
             {options.location.map(loc => (
-              <option key={loc} value={loc} className="bg-slate-800">{loc}</option>
+              <option key={loc} value={loc} className="bg-slate-800 text-white">{loc}</option>
             ))}
           </select>
         </div>
@@ -214,7 +214,7 @@ export default function SalaryForm({ onPrediction, onLoading }: SalaryFormProps)
             required
           >
             {options.remote_work.map(remote => (
-              <option key={remote} value={remote} className="bg-slate-800">{remote}</option>
+              <option key={remote} value={remote} className="bg-slate-800 text-white">{remote}</option>
             ))}
           </select>
         </div>
